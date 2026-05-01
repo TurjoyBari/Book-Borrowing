@@ -1,0 +1,167 @@
+[
+{
+"id": 1,
+"title": "The Silent Forest",
+"imageUrl": "https://picsum.photos/200/300?random=1",
+"author": "Arif Hasan",
+"category": "Story",
+"available_quantity": 5,
+"description": "A mysterious tale of a forest where no sound ever escapes.",
+"details": "Rafi had always heard stories about the Silent Forest.\nNo birds sang there.\nNo wind whispered.\nNo leaves rustled.\nPeople said the forest swallowed sound.\nOthers said it swallowed souls.\nOne evening, driven by curiosity, Rafi entered the forest.\nAt first, everything felt normal.\nBut soon, he noticed something strange.\nHis footsteps made no noise.\nHe tried to speak.\nNo sound came out.\nPanic began to rise.\nHe clapped his hands.\nNothing.\nComplete silence.\nThe deeper he walked, the darker it became.\nThe trees grew taller.\nTheir shadows stretched unnaturally.\nRafi felt watched.\nHe turned around.\nNo one.\nHe walked faster.\nStill nothing.\nThen he saw a figure.\nA shadow standing between the trees.\nIt didn’t move.\nRafi approached slowly.\nThe figure vanished.\nHe blinked.\nIt appeared again, closer this time.\nRafi tried to run.\nHis legs felt heavy.\nThe forest seemed endless.\nNo exit.\nNo path.\nJust silence.\nSuddenly, memories flooded his mind.\nEvery regret.\nEvery fear.\nEvery mistake.\nHe fell to his knees.\nTears rolled down silently.\nThen a whisper.\nFaint but real.\n'Why did you come?'\nRafi looked up.\nThe shadow stood before him.\nIt reached out.\nCold and dark.\nRafi closed his eyes.\nWhen he opened them,\nhe was outside the forest.\nThe world was loud again.\nBirds chirped.\nWind blew.\nBut something had changed.\nRafi tried to speak.\nStill no sound.\nThe forest had taken his voice.\nAnd it would never return.",
+"tags": ["mystery", "forest", "adventure", "silence"]
+},
+{
+"id": 2,
+"title": "Code Beyond Limits",
+"imageUrl": "https://picsum.photos/200/300?random=2",
+"author": "Nadia Rahman",
+"category": "Tech",
+"available_quantity": 8,
+"description": "A guide to mastering modern programming with real-world examples.",
+"details": "This book starts with the basics of programming.\nIt explains logic building.\nThen it moves to problem solving.\nYou learn about variables.\nYou understand loops.\nFunctions become easy.\nThen comes data structures.\nArrays are introduced.\nLinked lists are explained.\nStacks and queues are covered.\nThen algorithms come in.\nSorting techniques are shown.\nSearching becomes simple.\nYou learn recursion.\nThen real-world projects start.\nBuild a calculator.\nCreate a simple app.\nUnderstand APIs.\nWork with databases.\nLearn backend basics.\nThen advanced topics begin.\nSystem design is introduced.\nScalability is explained.\nYou learn optimization.\nDebugging skills improve.\nError handling is taught.\nSecurity basics included.\nDeployment is explained.\nCloud concepts added.\nCI/CD basics shown.\nVersion control with git.\nTeam collaboration tips.\nClean code practices.\nCode readability matters.\nRefactoring is important.\nTesting is introduced.\nUnit testing basics.\nIntegration testing overview.\nPerformance tuning tips.\nMemory management basics.\nAsynchronous programming.\nConcurrency explained.\nMultithreading basics.\nReal case studies included.\nInterview preparation tips.\nCommon coding problems.\nBest solutions discussed.\nPractice exercises added.\nProjects to build skills.\nFinal roadmap provided.\nCareer guidance included.",
+"tags": ["coding", "programming", "development", "software"]
+},
+{
+"id": 3,
+"title": "Journey to Mars",
+"imageUrl": "https://picsum.photos/200/300?random=3",
+"author": "Fahim Ahmed",
+"category": "Science",
+"available_quantity": 6,
+"description": "Exploring the possibilities of human life on Mars.",
+"details": "Humans have always looked at Mars.\nIt shines red in the sky.\nScientists studied it for years.\nRobots were sent first.\nThey collected data.\nThey sent images.\nThe surface looked dry.\nThere were signs of water.\nFrozen ice found.\nPossibility of life discussed.\nThen missions increased.\nTechnology improved.\nSpacecraft became advanced.\nAstronaut training started.\nMars mission planned.\nChallenges identified.\nLong journey problem.\nRadiation risk high.\nFood supply needed.\nWater recycling required.\nOxygen production system.\nHabitat design started.\nLiving modules created.\nEnergy from solar panels.\nCommunication delay issue.\nMental health concerns.\nIsolation is dangerous.\nRobotics support needed.\nAI systems included.\nLanding system complex.\nDust storms dangerous.\nTemperature extremely low.\nSuit design improved.\nFirst crew selected.\nLaunch day arrived.\nRocket lifted off.\nEarth slowly disappeared.\nJourney began.\nMonths passed.\nMars got closer.\nLanding was successful.\nFirst step on Mars.\nHistoric moment.\nHuman on another planet.\nBase setup started.\nExperiments conducted.\nLife support tested.\nFuture missions planned.",
+"tags": ["space", "mars", "exploration", "future"]
+},
+{
+"id": 4,
+"title": "Whispers of the Night",
+"imageUrl": "https://picsum.photos/200/300?random=4",
+"author": "Lamia Chowdhury",
+"category": "Story",
+"available_quantity": 4,
+"description": "A haunting story of secrets hidden in the darkness.",
+"details": "The night was unusually quiet.\nA cold wind blew.\nSara walked alone.\nStreet lights flickered.\nSomething felt wrong.\nShe heard a whisper.\nShe stopped.\nLooked around.\nNo one there.\nShe kept walking.\nAgain the whisper.\nCloser this time.\nHer heart raced.\nFootsteps echoed.\nBut not hers.\nShe turned quickly.\nEmpty road.\nA shadow moved.\nFar away.\nThen gone.\nShe walked faster.\nHer breath heavy.\nThe whisper returned.\nCalling her name.\nSoft but clear.\nSara froze.\nWho was it?\nShe followed the sound.\nInto a dark alley.\nMist covered the ground.\nA figure stood.\nFace unclear.\nIt pointed ahead.\nSara stepped forward.\nThe air grew cold.\nMemories flashed.\nOld fears returned.\nRegrets surfaced.\nTears formed.\nThe figure spoke.\n'You cannot escape.'\nSara screamed.\nNo sound came.\nThe night swallowed it.\nThe figure vanished.\nMorning came.\nSara was found.\nStanding still.\nEyes wide open.\nForever changed.",
+"tags": ["horror", "night", "ghost", "thriller"]
+},
+{
+"id": 5,
+"title": "AI Revolution",
+"imageUrl": "https://picsum.photos/200/300?random=5",
+"author": "Rakib Islam",
+"category": "Tech",
+"available_quantity": 10,
+"description": "Understanding artificial intelligence and its impact on the world.",
+"details": "Artificial Intelligence started simple.\nBasic algorithms first.\nThen machine learning emerged.\nData became important.\nModels trained on data.\nAccuracy improved.\nDeep learning introduced.\nNeural networks evolved.\nImage recognition improved.\nSpeech recognition advanced.\nChatbots became smarter.\nAutomation increased.\nIndustries adopted AI.\nHealthcare improved.\nDiagnosis became faster.\nFinance used AI.\nFraud detection improved.\nMarketing personalized.\nUser experience enhanced.\nSelf-driving cars developed.\nRobotics advanced.\nNatural language processing grew.\nTranslation became easier.\nAI ethics discussed.\nBias became concern.\nRegulations needed.\nAI governance introduced.\nJobs changed.\nNew roles created.\nOld roles replaced.\nEducation adapted.\nAI tools for learning.\nCreative AI emerged.\nArt and music generated.\nContent creation automated.\nBusiness decisions optimized.\nPredictive analytics used.\nSupply chains improved.\nSmart cities developed.\nIoT integrated with AI.\nFuture possibilities endless.\nGeneral AI discussed.\nRisks also considered.\nHuman-AI collaboration key.\nInnovation continues.\nAI shaping the future.",
+"tags": ["ai", "technology", "future", "innovation"]
+},
+{
+"id": 6,
+"title": "Quantum Mysteries",
+"imageUrl": "https://picsum.photos/200/300?random=6",
+"author": "Sara Jahan",
+"category": "Science",
+"available_quantity": 7,
+"description": "An introduction to the strange world of quantum physics.",
+"details": "Quantum physics is strange.\nIt studies tiny particles.\nAtoms and electrons.\nBehavior is unpredictable.\nParticles act like waves.\nWaves act like particles.\nDual nature exists.\nUncertainty principle applies.\nPosition unknown.\nMomentum uncertain.\nObservation changes results.\nMeasurement matters.\nQuantum superposition explained.\nMultiple states possible.\nSchrodinger's cat example.\nAlive and dead together.\nQuantum entanglement discovered.\nParticles connected instantly.\nDistance does not matter.\nFaster than light effect.\nStill mysterious.\nQuantum tunneling happens.\nParticles cross barriers.\nImpossible in classical physics.\nQuantum computing emerging.\nQubits used instead bits.\nParallel computation possible.\nHuge power potential.\nCryptography impacted.\nSecurity changes.\nQuantum field theory developed.\nExplains particle interactions.\nStandard model built.\nMany questions remain.\nDark matter unknown.\nDark energy mystery.\nUniverse largely unknown.\nExperiments continue.\nTechnology improving.\nNew discoveries ahead.\nUnderstanding growing slowly.\nQuantum world remains magical.",
+"tags": ["quantum", "physics", "science", "particles"]
+},
+{
+"id": 7,
+"title": "The Lost Kingdom",
+"imageUrl": "https://picsum.photos/200/300?random=7",
+"author": "Imran Kabir",
+"category": "Story",
+"available_quantity": 3,
+"description": "A fantasy adventure in a forgotten kingdom.",
+"details": "A kingdom once thrived.\nRich and powerful.\nThen it vanished.\nForgotten by time.\nOnly legends remained.\nA young boy heard them.\nHis name was Arin.\nHe dreamed of adventure.\nOne day he left home.\nFollowing old maps.\nThrough forests and hills.\nFacing many dangers.\nWild animals attacked.\nStorms blocked paths.\nBut he continued.\nHe found ruins.\nAncient and broken.\nSymbols on walls.\nA hidden door appeared.\nHe entered carefully.\nDarkness surrounded him.\nTorches lit suddenly.\nA path revealed.\nHe walked deeper.\nVoices echoed.\nGhosts of past.\nA throne stood ahead.\nCovered in dust.\nA crown lay there.\nArin touched it.\nThe ground shook.\nThe kingdom awakened.\nWalls restored.\nLights returned.\nPeople appeared.\nSpirits of past.\nThey bowed to him.\nHe became king.\nThe lost kingdom returned.\nArin fulfilled his destiny.",
+"tags": ["fantasy", "kingdom", "adventure", "magic"]
+},
+{
+"id": 8,
+"title": "Web Dev Mastery",
+"imageUrl": "https://picsum.photos/200/300?random=8",
+"author": "Tania Sultana",
+"category": "Tech",
+"available_quantity": 9,
+"description": "Learn full-stack web development from scratch.",
+"details": "Web development starts simple.\nHTML builds structure.\nCSS styles pages.\nJavaScript adds logic.\nDOM manipulation explained.\nEvents handled.\nForms created.\nValidation added.\nResponsive design important.\nMobile-first approach.\nFrameworks introduced.\nReact basics taught.\nComponents used.\nState management explained.\nHooks introduced.\nRouting implemented.\nAPI calls made.\nAsync programming used.\nBackend basics start.\nNode.js introduced.\nExpress framework used.\nREST APIs created.\nDatabase connected.\nMongoDB basics.\nCRUD operations.\nAuthentication added.\nJWT explained.\nSecurity practices.\nError handling.\nTesting basics.\nDeployment steps.\nHosting platforms.\nCI/CD basics.\nVersion control git.\nTeam workflow.\nBest practices.\nClean code rules.\nPerformance optimization.\nSEO basics.\nAccessibility importance.\nReal projects built.\nPortfolio created.\nJob preparation tips.\nFreelancing guide.\nCareer roadmap.\nContinuous learning.",
+"tags": ["web", "frontend", "backend", "javascript"]
+},
+{
+"id": 9,
+"title": "The Human Brain",
+"imageUrl": "https://picsum.photos/200/300?random=9",
+"author": "Dr. Mahmud Karim",
+"category": "Science",
+"available_quantity": 6,
+"description": "Discover how the human brain works and processes information.",
+"details": "The brain controls everything.\nIt processes information.\nNeurons send signals.\nSynapses connect neurons.\nElectrical impulses travel.\nChemical signals transfer.\nDifferent regions exist.\nCortex handles thinking.\nCerebellum controls balance.\nBrainstem manages survival.\nMemory stored in networks.\nLearning changes connections.\nPlasticity allows adaptation.\nEmotions processed deeply.\nAmygdala plays role.\nHippocampus forms memories.\nSleep is important.\nBrain repairs itself.\nDreams occur.\nConsciousness studied.\nStill mysterious.\nBrain diseases exist.\nAlzheimer's affects memory.\nParkinson's impacts movement.\nResearch continues.\nTechnology helps study.\nBrain imaging tools.\nMRI scans used.\nEEG measures activity.\nAI assists research.\nFuture discoveries ahead.\nBrain remains complex.\nUnderstanding improving slowly.",
+"tags": ["brain", "neuroscience", "biology", "mind"]
+},
+{
+"id": 10,
+"title": "Echoes of Love",
+"imageUrl": "https://picsum.photos/200/300?random=10",
+"author": "Nusrat Jahan",
+"category": "Story",
+"available_quantity": 5,
+"description": "A romantic story of love that transcends time.",
+"details": "They met by chance.\nA simple moment.\nEyes connected.\nTime paused.\nLove began.\nDays turned bright.\nLaughter filled air.\nPromises made.\nDreams shared.\nThen distance came.\nLife separated them.\nYears passed.\nMemories stayed.\nLetters written.\nSome never sent.\nHope remained.\nFate played silently.\nOne day they met again.\nOlder but same.\nFeelings returned.\nStronger than before.\nNo words needed.\nJust presence.\nLove never faded.\nTime could not break it.\nThey chose each other again.\nThis time forever.",
+"tags": ["romance", "love", "drama", "emotion"]
+},
+{
+"id": 11,
+"title": "Cybersecurity Basics",
+"imageUrl": "https://picsum.photos/200/300?random=11",
+"author": "Shakib Hossain",
+"category": "Tech",
+"available_quantity": 8,
+"description": "Learn how to protect systems and data from cyber threats.",
+"details": "Cybersecurity is critical.\nSystems face threats.\nHackers try attacks.\nPhishing common.\nMalware spreads.\nViruses damage systems.\nFirewalls protect networks.\nEncryption secures data.\nPasswords must be strong.\nTwo-factor authentication helps.\nSecurity policies needed.\nRegular updates important.\nVulnerabilities patched.\nMonitoring systems required.\nIncident response plans.\nEthical hacking helps.\nPenetration testing used.\nRisk assessment done.\nUser awareness important.\nTraining reduces risks.\nBackup strategies needed.\nCloud security considered.\nFuture threats evolving.\nContinuous learning required.",
+"tags": ["security", "cyber", "hacking", "protection"]
+},
+{
+"id": 12,
+"title": "Climate Change Reality",
+"imageUrl": "https://picsum.photos/200/300?random=12",
+"author": "Farzana Akter",
+"category": "Science",
+"available_quantity": 7,
+"description": "Understanding the causes and effects of climate change.",
+"details": "Climate change is real.\nGlobal temperatures rising.\nIce caps melting.\nSea levels increasing.\nWeather patterns changing.\nStorms intensifying.\nHuman activities main cause.\nCarbon emissions high.\nDeforestation harmful.\nRenewable energy needed.\nSolar power growing.\nWind energy expanding.\nPolicies required.\nGlobal cooperation needed.\nAwareness increasing.\nActions still slow.\nFuture depends on choices.\nSustainability important.\nEvery effort counts.",
+"tags": ["climate", "environment", "earth", "global"]
+},
+{
+"id": 13,
+"title": "The Hidden Path",
+"imageUrl": "https://picsum.photos/200/300?random=13",
+"author": "Rafiul Alam",
+"category": "Story",
+"available_quantity": 4,
+"description": "A journey of self-discovery through unexpected challenges.",
+"details": "Life felt confusing.\nNo clear direction.\nHe felt lost.\nThen a journey began.\nUnexpected path.\nChallenges appeared.\nFailures happened.\nLessons learned.\nGrowth started.\nConfidence built.\nFear reduced.\nPurpose found.\nHe became stronger.\nThe hidden path revealed everything.",
+"tags": ["journey", "life", "growth", "adventure"]
+},
+{
+"id": 14,
+"title": "Data Structures Simplified",
+"imageUrl": "https://picsum.photos/200/300?random=14",
+"author": "Mehedi Hasan",
+"category": "Tech",
+"available_quantity": 9,
+"description": "A beginner-friendly guide to data structures and algorithms.",
+"details": "Data structures organize data.\nArrays simple.\nLinked lists dynamic.\nStacks follow LIFO.\nQueues follow FIFO.\nTrees hierarchical.\nGraphs complex.\nAlgorithms process data.\nSorting organizes.\nSearching finds.\nEfficiency matters.\nBig O notation used.\nOptimization important.\nPractice required.\nUnderstanding key.\nMastery possible.",
+"tags": ["dsa", "algorithms", "coding", "learning"]
+},
+{
+"id": 15,
+"title": "Universe Unveiled",
+"imageUrl": "https://picsum.photos/200/300?random=15",
+"author": "Ayesha Siddika",
+"category": "Science",
+"available_quantity": 5,
+"description": "Exploring the origins and mysteries of the universe.",
+"details": "The universe is vast.\nIt began with a bang.\nThe Big Bang theory explains origin.\nSpace expanded rapidly.\nGalaxies formed.\nStars were born.\nPlanets created.\nOur solar system formed.\nEarth became home.\nLife emerged slowly.\nScientists study cosmos.\nTelescopes observe space.\nHubble captured images.\nJames Webb explores deeper.\nBlack holes exist.\nGravity extremely strong.\nNothing escapes them.\nDark matter unknown.\nDark energy mysterious.\nUniverse expanding faster.\nTime and space connected.\nRelativity explains it.\nQuantum physics adds complexity.\nMultiverse theory suggested.\nPossibility of other universes.\nExtraterrestrial life searched.\nSignals monitored.\nNo confirmed evidence yet.\nSpace missions continue.\nMars explored.\nMoon revisited.\nAsteroids studied.\nComets observed.\nFuture colonization discussed.\nTechnology improving.\nPrivate companies involved.\nSpace tourism emerging.\nHuman curiosity endless.\nQuestions remain unanswered.\nWhy universe exists?\nWhat lies beyond?\nIs there an end?\nOr infinite expansion?\nScience keeps exploring.\nNew discoveries ahead.\nEach answer brings questions.\nThe universe remains mysterious.\nAnd endlessly fascinating.",
+"tags": ["universe", "cosmos", "astronomy", "space"]
+}
+]
