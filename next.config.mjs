@@ -4,7 +4,7 @@ const nextConfig = {
   images: {
     remotePatterns: [
       {
-        hostname: 'fastly.picsum.photos'
+        hostname: 'images.unsplash.com'
       }
     ]
   }
