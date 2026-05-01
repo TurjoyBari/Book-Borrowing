@@ -4,7 +4,7 @@
 {
 "id": 1,
 "title": "The Silent Forest",
-"imageUrl": "/images/The Silent Forest.jpg",
+"imageUrl": "public/images/The Silent Forest.jpg",
 "author": "Arif Hasan",
 "category": "Story",
 "available_quantity": 5,
