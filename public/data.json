@@ -4,7 +4,7 @@
 {
 "id": 1,
 "title": "The Silent Forest",
-"imageUrl": "public/images/The Silent Forest.jpg",
+"imageUrl": "/images/TheSilentForest.jpg",
 "author": "Arif Hasan",
 "category": "Story",
 "available_quantity": 5,
@@ -15,7 +15,7 @@
 {
 "id": 2,
 "title": "Code Beyond Limits",
-"imageUrl": "/images/Code Beyond Limits.jpg",
+"imageUrl": "/images/CodeBeyondLimits.jpg",
 "author": "Nadia Rahman",
 "category": "Tech",
 "available_quantity": 8,
@@ -26,7 +26,7 @@
 {
 "id": 3,
 "title": "Journey to Mars",
-"imageUrl": "/images/Journey to Mars.jpg",
+"imageUrl": "/images/JourneytoMars.jpg",
 "author": "Fahim Ahmed",
 "category": "Science",
 "available_quantity": 6,
@@ -37,7 +37,7 @@
 {
 "id": 4,
 "title": "Whispers of the Night",
-"imageUrl": "/images/Whispers of the Night.jpg",
+"imageUrl": "/images/WhispersoftheNight.jpg",
 "author": "Lamia Chowdhury",
 "category": "Story",
 "available_quantity": 4,
@@ -48,7 +48,7 @@
 {
 "id": 5,
 "title": "AI Revolution",
-"imageUrl": "/images/AI Revolution.jpg",
+"imageUrl": "/images/AIRevolution.jpg",
 "author": "Rakib Islam",
 "category": "Tech",
 "available_quantity": 10,
@@ -59,7 +59,7 @@
 {
 "id": 6,
 "title": "Quantum Mysteries",
-"imageUrl": "/images/Quantum Mysteries.jpg",
+"imageUrl": "/images/QuantumMysteries.jpg",
 "author": "Sara Jahan",
 "category": "Science",
 "available_quantity": 7,
@@ -70,7 +70,7 @@
 {
 "id": 7,
 "title": "The Lost Kingdom",
-"imageUrl": "/images/The Lost Kingdom.jpg",
+"imageUrl": "/images/TheLostKingdom.jpg",
 "author": "Imran Kabir",
 "category": "Story",
 "available_quantity": 3,
@@ -81,7 +81,7 @@
 {
 "id": 8,
 "title": "Web Dev Mastery",
-"imageUrl": "/images/Web Dev Mastery.jpg",
+"imageUrl": "/images/WebDevMastery.jpg",
 "author": "Tania Sultana",
 "category": "Tech",
 "available_quantity": 9,
@@ -92,7 +92,7 @@
 {
 "id": 9,
 "title": "The Human Brain",
-"imageUrl": "/images/The Human Brain.jpg",
+"imageUrl": "/images/TheHumanBrain.jpg",
 "author": "Dr. Mahmud Karim",
 "category": "Science",
 "available_quantity": 6,
@@ -103,7 +103,7 @@
 {
 "id": 10,
 "title": "Echoes of Love",
-"imageUrl": "/images/Echoes of Love.jpg",
+"imageUrl": "/images/EchoesofLove.jpg",
 "author": "Nusrat Jahan",
 "category": "Story",
 "available_quantity": 5,
@@ -113,7 +113,7 @@
 },
 {
 "id": 11,
-"title": "Cybersecurity Basics",
+"title": "CybersecurityBasics",
 "imageUrl": "/images/Cybersecurity Basics.jpg",
 "author": "Shakib Hossain",
 "category": "Tech",
@@ -124,7 +124,7 @@
 },
 {
 "id": 12,
-"title": "Climate Change Reality",
+"title": "ClimateChangeReality",
 "imageUrl": "/images/Climate Change Reality.jpg",
 "author": "Farzana Akter",
 "category": "Science",
@@ -136,7 +136,7 @@
 {
 "id": 13,
 "title": "The Hidden Path",
-"imageUrl": "/images/The Hidden Path.jpg",
+"imageUrl": "/images/TheHiddenPath.jpg",
 "author": "Rafiul Alam",
 "category": "Story",
 "available_quantity": 4,
@@ -147,7 +147,7 @@
 {
 "id": 14,
 "title": "Data Structures Simplified",
-"imageUrl": "/images/Data Structures Simplified.jpg",
+"imageUrl": "/images/DataStructuresSimplified.jpg",
 "author": "Mehedi Hasan",
 "category": "Tech",
 "available_quantity": 9,
@@ -158,7 +158,7 @@
 {
 "id": 15,
 "title": "Universe Unveiled",
-"imageUrl": "/images/Universe Unveiled.jpg",
+"imageUrl": "/images/UniverseUnveiled.jpg",
 "author": "Ayesha Siddika",
 "category": "Science",
 "available_quantity": 5,
