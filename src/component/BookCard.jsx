@@ -13,7 +13,7 @@ const BookCard = ({ book }) => {
       <div className="relative w-full aspect-square">
         <Image
           key={book.id}
-          src={book.imageUrl}
+          src={book?.imageUrl}
           fill
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           alt={book.title}
