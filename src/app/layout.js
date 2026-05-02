@@ -23,7 +23,6 @@ export default function RootLayout({ children }) {
     >
       <body>
         <Navbar/>
-        <NewArrivals/>
         {children}
         <Footer/>
         </body>

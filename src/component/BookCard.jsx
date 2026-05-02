@@ -1,3 +1,4 @@
+import { SealCheck, Star, StarFill } from "@gravity-ui/icons";
 import { Button, Card, Chip, Separator } from "@heroui/react";
 import Image from "next/image";
 
@@ -31,8 +32,8 @@ const BookCard = ({ book }) => {
 
       <div className="flex gap-5">
         <div className="flex items-center gap-2">
-          <p>
-            <FaHeart />
+          <p className="flex gap-1">
+            <StarFill/><StarFill/><StarFill/><Star/><Star/>
           </p>
           <p>{book.likes}</p>
         </div>
@@ -40,16 +41,16 @@ const BookCard = ({ book }) => {
         <Separator orientation="vertical" />
 
         <div className="flex items-center gap-2">
-          <p>
-            <BiDownload />
+          <p className="flex gap-1 items-center">
+            <SealCheck /> In Stock
           </p>
-          <p>{book.downloads}</p>
+          <p>{book.available_quantity}</p>
         </div>
       </div>
 
       <Link href={`/all-books/${book.id}`}>
         {" "}
-        <Button variant="outline" className={"w-full"}>
+        <Button variant="outline" className={"w-full bg-[#7bc387]"}>
           View Details
         </Button>
       </Link>

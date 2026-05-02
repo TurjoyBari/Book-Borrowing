@@ -114,7 +114,7 @@
 {
 "id": 11,
 "title": "CybersecurityBasics",
-"imageUrl": "/images/Cybersecurity Basics.jpg",
+"imageUrl": "/images/CybersecurityBasics.jpg",
 "author": "Shakib Hossain",
 "category": "Tech",
 "available_quantity": 8,
@@ -125,7 +125,7 @@
 {
 "id": 12,
 "title": "ClimateChangeReality",
-"imageUrl": "/images/Climate Change Reality.jpg",
+"imageUrl": "/images/ClimateChangeReality.jpg",
 "author": "Farzana Akter",
 "category": "Science",
 "available_quantity": 7,
