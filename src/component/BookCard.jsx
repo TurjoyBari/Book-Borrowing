@@ -4,8 +4,7 @@ import Image from "next/image";
 
 import Link from "next/link";
 import React from "react";
-import { BiDownload } from "react-icons/bi";
-import { FaHeart } from "react-icons/fa";
+
 
 const BookCard = ({ book }) => {
 
@@ -50,7 +49,7 @@ const BookCard = ({ book }) => {
 
       <Link href={`/all-books/${book.id}`}>
         {" "}
-        <Button variant="outline" className={"w-full bg-[#7bc387]"}>
+        <Button variant="outline" className={"w-full bg-[#66ba76] font-bold text-[#0e3f1b]"}>
           View Details
         </Button>
       </Link>
