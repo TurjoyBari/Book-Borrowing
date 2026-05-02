@@ -47,10 +47,10 @@ const BookCard = ({ book }) => {
         </div>
       </div>
 
-      <Link href={`/all-photos/${book.id}`}>
+      <Link href={`/all-books/${book.id}`}>
         {" "}
         <Button variant="outline" className={"w-full"}>
-          View
+          View Details
         </Button>
       </Link>
     </Card>
