@@ -24,7 +24,6 @@ const BookDetails = ({ book }) => {
             className="object-cover rounded-lg shadow-md"
           />
         </div>
-
       
         <div className="md:col-span-2">
           <h1 className="text-2xl md:text-3xl font-semibold mb-2">
@@ -44,7 +43,7 @@ const BookDetails = ({ book }) => {
                 <StarFill
                   key={i}
                   size={16}
-                  className="text-orange-400 fill-orange-400"
+                  className=" fill-orange-400"
                 />
               ))}
             </div>
