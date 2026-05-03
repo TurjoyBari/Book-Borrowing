@@ -1,6 +1,7 @@
 import Banner from "@/component/Banner";
+import Testimonial from "@/component/Testimonial";
+
 import TopGenerations from "@/component/TopGenerations";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -8,6 +9,10 @@ export default function Home() {
       <Banner/>
 
       <TopGenerations/>
+
+      <Testimonial/>
+
+      
     </div>
   );
 }
