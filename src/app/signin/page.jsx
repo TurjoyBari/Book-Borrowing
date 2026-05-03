@@ -1,6 +1,6 @@
 "use client";
 import { authClient } from "@/lib/auth-client";
-import { Check } from "@gravity-ui/icons";
+import { ArrowDownToSquare, Check } from "@gravity-ui/icons";
 import {
   Button,
   Card,
@@ -11,6 +11,7 @@ import {
   Label,
   TextField,
 } from "@heroui/react";
+import Link from "next/link";
 import { GrGoogle } from "react-icons/gr";
 
 export default function SignInPage() {
@@ -25,17 +26,13 @@ export default function SignInPage() {
       password,
       callbackURL: "/",
     });
-
-    
   };
 
   const handlGoogleSignIn = async () => {
     await authClient.signIn.social({
-        provider: 'google'
-    })
-  }
-
-
+      provider: "google",
+    });
+  };
 
   return (
     <Card className="border mx-auto w-125 max-w-7xl py-10 mt-5 items-center">
@@ -53,9 +50,13 @@ export default function SignInPage() {
 
             return null;
           }}
+          
         >
           <Label>Email</Label>
-          <Input placeholder="john@example.com" />
+          <Input
+            placeholder="john@example.com"
+             
+            />
           <FieldError />
         </TextField>
 
@@ -87,19 +88,37 @@ export default function SignInPage() {
         </TextField>
 
         <div className="flex gap-2">
-          <Button type="submit">
+          <Button
+            type="submit"
+            variant="flat"
+            style={{
+              backgroundColor: "#34A853",
+              color: "#ffffff",
+            }}
+          >
             <Check />
             Submit
           </Button>
-          <Button type="reset" variant="secondary">
+          <Button type="reset" variant="secondary" style={{ color: "#34A853" }}>
             Reset
           </Button>
         </div>
       </Form>
+      <div className="flex gap-3 items-center">
+        <p className="text-center">Don’t have an account?</p>
+
+        <Link href={"/signup"} className="text-[#34A853]">
+          <Button variant="light" style={{ color: "#34A853" }}>
+            SignUp
+          </Button>
+        </Link>
+      </div>
 
       <p className="text-center">Or</p>
 
-      <Button onClick={handlGoogleSignIn} variant="outline" className={''}><GrGoogle/> Sign In With Google</Button>
+      <Button onClick={handlGoogleSignIn} variant="outline" className={""}>
+        <GrGoogle /> Sign In With Google
+      </Button>
     </Card>
   );
 }

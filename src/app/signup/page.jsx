@@ -11,15 +11,15 @@ import {
   Label,
   TextField,
 } from "@heroui/react";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { GrGoogle } from "react-icons/gr";
 
-
 const handlGoogleSignUp = async () => {
-       await authClient.signIn.social({
-           provider: 'google'
-       })
-     }
+  await authClient.signIn.social({
+    provider: "google",
+  });
+};
 
 export default function SignUpPage() {
   const router = useRouter();
@@ -38,9 +38,6 @@ export default function SignUpPage() {
       password,
       image,
     });
-
-
-   
 
     if (!error) {
       router.push("/signin");
@@ -110,19 +107,40 @@ export default function SignUpPage() {
           </TextField>
 
           <div className="flex gap-2">
-            <Button type="submit">
+            <Button
+              type="submit"
+              variant="flat"
+              style={{
+                backgroundColor: "#34A853",
+                color: "#ffffff",
+              }}
+            >
               <Check />
               Submit
             </Button>
-            <Button type="reset" variant="secondary">
+            <Button
+              type="reset"
+              variant="secondary"
+              style={{ color: "#34A853" }}
+            >
               Reset
             </Button>
+          </div>
+
+          <div className="flex gap-3 items-center">
+            <p className="text-center">Already have an account?</p>
+
+            <Link href={"/signin"}  className="text-[#34A853]">
+              <Button variant="light" style={{ color: "#34A853" }}>SignIn</Button>
+            </Link>
           </div>
         </Form>
 
         <p className="text-center">Or</p>
-        
-              <Button onClick={handlGoogleSignUp} variant="outline" className={''}><GrGoogle/> Sign In With Google</Button>
+
+        <Button onClick={handlGoogleSignUp} variant="outline" className={""}>
+          <GrGoogle /> Sign In With Google
+        </Button>
       </Card>
     </div>
   );
