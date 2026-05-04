@@ -7,7 +7,7 @@ Users can browse books, filter by category, search books, and manage authenticat
 
 ## 🚀 Live Demo
 
-👉 [https://your-live-link.com](https://book-borrowing.vercel.app/)
+👉 [https://book-borrowing.com](https://book-borrowing.vercel.app/)
 
 ---
 
