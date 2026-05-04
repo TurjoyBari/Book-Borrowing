@@ -13,6 +13,7 @@ import {
 } from "@heroui/react";
 import Link from "next/link";
 import { GrGoogle } from "react-icons/gr";
+import { toast } from "react-toastify";
 
 export default function SignInPage() {
   const onSubmit = async (e) => {
@@ -26,6 +27,13 @@ export default function SignInPage() {
       password,
       callbackURL: "/",
     });
+
+    if (error) {
+    toast.error("Invalid credentials!");
+    return;
+  }
+
+  toast.success("SignIn successful!");
   };
 
   const handlGoogleSignIn = async () => {
@@ -34,11 +42,13 @@ export default function SignInPage() {
     });
   };
 
+
+
   return (
-    <Card className="border mx-auto w-125 max-w-7xl py-10 mt-5 items-center">
+    <Card className="border mx-auto w-80 md:w-125 max-w-7xl py-10 mt-5 items-center">
       <h1 className="text-center text-2xl font-bold">Sign In</h1>
 
-      <Form className="flex w-96 mx-auto flex-col gap-4" onSubmit={onSubmit}>
+      <Form className="flex md:w-96 mx-auto flex-col gap-4" onSubmit={onSubmit}>
         <TextField
           isRequired
           name="email"
@@ -95,6 +105,7 @@ export default function SignInPage() {
               backgroundColor: "#34A853",
               color: "#ffffff",
             }}
+            
           >
             <Check />
             Submit

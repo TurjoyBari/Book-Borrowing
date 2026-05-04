@@ -5,16 +5,26 @@ import { RxDividerHorizontal } from "react-icons/rx";
 
 import Image from "next/image";
 import { StarFill } from "@gravity-ui/icons";
+import Link from "next/link";
+
+import { toast } from "react-toastify";
 
 const BookDetails = ({ book }) => {
   if (!book) return null;
 
-  console.log(book.imageUrl);
+
+   const handleBorrow = () => {
+    if (book.available_quantity > 0) {
+      toast.success("📚 Book borrowed successfully!");
+    } else {
+      toast.error("❌ Book is out of stock!");
+    }
+  };
+
 
   return (
     <div className="max-w-7xl mx-auto ">
       <div className="grid md:grid-cols-3 gap-10 items-start">
-     
         <div className="flex justify-center md:justify-start">
           <Image
             src={book?.imageUrl}
@@ -24,7 +34,7 @@ const BookDetails = ({ book }) => {
             className="object-cover rounded-lg shadow-md"
           />
         </div>
-      
+
         <div className="md:col-span-2">
           <h1 className="text-2xl md:text-3xl font-semibold mb-2">
             {book.title}
@@ -35,32 +45,24 @@ const BookDetails = ({ book }) => {
             <span className="text-blue-600 cursor-pointer">{book.author}</span>
           </p>
 
-          
           <div className="flex items-center gap-2 mb-3">
             <span className="text-orange-500 font-semibold">4.7</span>
             <div className="flex">
               {[...Array(5)].map((_, i) => (
-                <StarFill
-                  key={i}
-                  size={16}
-                  className=" fill-orange-400"
-                />
+                <StarFill key={i} size={16} className=" fill-orange-400" />
               ))}
             </div>
             <span className="text-sm text-gray-500">(229 reviews)</span>
           </div>
 
-          
           <Chip size="sm" variant="flat" color="primary" className="mb-4">
             {book.category}
           </Chip>
 
           <RxDividerHorizontal className="my-4" />
 
-         
           <p className="text-gray-700 leading-7 mb-4">{book.description}</p>
 
-          
           <p className="mb-4">
             <span className="font-semibold">Availability: </span>
             {book.available_quantity > 0 ? (
@@ -72,7 +74,6 @@ const BookDetails = ({ book }) => {
             )}
           </p>
 
-          
           <div className="flex flex-wrap gap-2 mb-6">
             {book.tags?.map((tag, i) => (
               <Chip key={i} size="sm" variant="bordered">
@@ -81,17 +82,17 @@ const BookDetails = ({ book }) => {
             ))}
           </div>
 
-          
           <div className="flex gap-4">
-            <Button color="warning" className="font-semibold">
-              Borrow Now
-            </Button>
+            <Link href={"/all-books/"}>
+              <Button color="warning" className="font-semibold"  onClick={handleBorrow}>
+                Borrow Now
+              </Button>
+            </Link>
             <Button variant="bordered">Add to Wishlist</Button>
           </div>
 
           <RxDividerHorizontal className="my-6" />
 
-         
           <h2 className="text-xl font-semibold mb-3">About this book</h2>
 
           <p className="text-gray-700 leading-7 whitespace-pre-line">

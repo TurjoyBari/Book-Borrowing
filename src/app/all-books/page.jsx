@@ -1,19 +1,22 @@
-import BookCard from "@/component/BookCard";
+import BooksClient from "@/component/BooksClient";
+
 
 const AllBooksPages = async () => {
+  const bookRes = await fetch("https://book-borrowing.vercel.app/data.json", {
+    cache: "no-store",
+  });
+  const books = await bookRes.json();
 
+  const catRes = await fetch("https://book-borrowing.vercel.app/category.json", {
+    cache: "no-store",
+  });
+  const categories = await catRes.json();
 
-    const res = await fetch('https://book-borrowing.vercel.app/data.json')
-    const books = await res.json()
-    return (
-        <div className="max-w-7xl mx-auto mt-5">
-            <div className="grid items-center justify-center md:grid-cols-4 gap-6">
-                {books.map(book => <BookCard key={book.id} book={book} />
-            )}
-            </div>
-            
-        </div>
-    );
+  return (
+    <div className="max-w-7xl mx-auto mt-10 px-4">
+      <BooksClient books={books} categories={categories} />
+    </div>
+  );
 };
 
 export default AllBooksPages;

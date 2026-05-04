@@ -29,7 +29,7 @@ const BookCard = ({ book }) => {
         <h2 className="font-medium">{book.title}</h2>
       </div>
 
-      <div className="flex gap-5">
+      <div className="flex flex-col gap-5">
         <div className="flex items-center gap-2">
           <p className="flex gap-1">
             <StarFill/><StarFill/><StarFill/><Star/><Star/>
@@ -37,13 +37,13 @@ const BookCard = ({ book }) => {
           <p>{book.likes}</p>
         </div>
 
-        <Separator orientation="vertical" />
+        
 
-        <div className="flex items-center gap-2">
+        <div className="flex  items-center gap-2">
           <p className="flex gap-1 items-center">
-            <SealCheck /> In Stock
+            <SealCheck />InStock
           </p>
-          <p>{book.available_quantity}</p>
+          <p>({book.available_quantity})</p>
         </div>
       </div>
 

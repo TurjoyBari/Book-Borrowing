@@ -15,6 +15,8 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { GrGoogle } from "react-icons/gr";
 
+import { toast } from "react-toastify";
+
 const handlGoogleSignUp = async () => {
   await authClient.signIn.social({
     provider: "google",
@@ -39,17 +41,26 @@ export default function SignUpPage() {
       image,
     });
 
-    if (!error) {
-      router.push("/signin");
-    }
+    if (error) {
+    toast.error("Signup failed!");
+    return;
+  }
+
+  toast.success("Signup successful!");
+
+  setTimeout(() => {
+    router.push("/signin");
+  }, 1500);
   };
+
+
 
   return (
     <div className="mx-auto max-w-7xl">
-      <Card className="border mx-auto w-125 py-15 mt-5 items-center ">
+      <Card className="border mx-auto w-80 md:w-125 py-15 mt-5 items-center ">
         <h1 className="text-center text-2xl font-bold">Sign Up</h1>
 
-        <Form className="flex w-96 mx-auto flex-col gap-4" onSubmit={onSubmit}>
+        <Form className="flex md:w-96 mx-auto flex-col gap-4" onSubmit={onSubmit}>
           <TextField isRequired name="name" type="text">
             <Label>Name</Label>
             <Input placeholder="Enter your name" />
@@ -114,6 +125,7 @@ export default function SignUpPage() {
                 backgroundColor: "#34A853",
                 color: "#ffffff",
               }}
+              
             >
               <Check />
               Submit
