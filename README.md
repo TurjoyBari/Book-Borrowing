@@ -1,36 +1,165 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📚 Book Borrowing System
 
-## Getting Started
+A modern full-stack book borrowing web application built with **Next.js, TailwindCSS, and HeroUI**.
+Users can browse books, filter by category, search books, and manage authentication (Sign Up / Sign In).
 
-First, run the development server:
+---
+
+## 🚀 Live Demo
+
+👉 [https://your-live-link.com](https://book-borrowing.vercel.app/)
+
+---
+
+## ✨ Features
+<img width="1566" height="899" alt="image" src="https://github.com/user-attachments/assets/c5660e59-35be-493e-9a60-c68018a7ce9e" />
+<img width="1420" height="910" alt="image" src="https://github.com/user-attachments/assets/88db8bc7-7553-4dc2-9b6f-cb717f10f2a2" />
+<img width="1438" height="894" alt="image" src="https://github.com/user-attachments/assets/c8993b60-a6ad-4ced-954d-a9109d7d09c9" />
+
+
+### 🔐 Authentication
+
+* Email & Password Sign Up / Sign In
+* Google Authentication
+* Session-based login system
+* Dynamic Navbar (Login → Avatar + Logout)
+
+### 📚 Book System
+
+* Browse all books
+* Category-based filtering
+* Real-time search functionality
+* Book details page
+* Availability status (In Stock / Out of Stock)
+
+### 🎯 UI/UX
+
+* Fully responsive design (Mobile + Desktop)
+* Modern UI with HeroUI + TailwindCSS
+* Toast notifications (React Toastify)
+* Interactive components (hover, transitions)
+
+---
+
+## 🧱 Tech Stack
+
+### Frontend
+
+* Next.js (App Router)
+* Tailwind CSS
+* HeroUI
+* React Icons / Lucide Icons
+
+### Authentication
+
+* Custom Auth Client
+* Google OAuth
+
+### State & UX
+
+* React Hooks
+* React Toastify
+
+---
+
+## 📁 Project Structure
+
+```
+/app
+  /all-books
+  /signin
+  /signup
+  layout.jsx
+
+/components
+  Navbar.jsx
+  BookCard.jsx
+  BooksClient.jsx
+  CategorySidebar.jsx
+  SearchBar.jsx
+  BookGrid.jsx
+
+/public
+  data.json
+  category.json
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/your-username/book-borrowing.git
+cd book-borrowing
+```
+
+### 2️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+### 3️⃣ Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+👉 App will run on:
+http://localhost:3000
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🔑 Environment Variables
 
-## Learn More
+Create a `.env.local` file and add:
 
-To learn more about Next.js, take a look at the following resources:
+```
+NEXT_PUBLIC_AUTH_URL=your_auth_url
+GOOGLE_CLIENT_ID=your_google_client_id
+GOOGLE_CLIENT_SECRET=your_google_secret
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📦 API / Data Source
 
-## Deploy on Vercel
+* Books: `/public/data.json`
+* Categories: `/public/category.json`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🧠 Key Learnings
+
+* Server vs Client Components (Next.js)
+* Authentication flow handling
+* State management with filtering & search
+* Responsive UI design
+* Clean component architecture
+
+---
+
+## 🚀 Future Improvements
+
+* 📦 Backend integration (database)
+* 📄 Pagination / Infinite Scroll
+* ❤️ Wishlist system
+* 📊 Admin dashboard
+* 🔒 Protected routes (middleware)
+
+---
+
+## 👨‍💻 Author
+
+**Turjo Bari**
+Frontend Developer (Next.js)
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
+
+---
